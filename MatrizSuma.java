@@ -149,7 +149,6 @@ public class MatrizSuma {
                 resultado[i][j] = matrizA[i][j].sumar(matrizB[i][j]);
             }
         }
-
         return resultado;
     }
 
