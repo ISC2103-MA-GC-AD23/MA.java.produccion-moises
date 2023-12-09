@@ -1,29 +1,6 @@
 import java.util.Scanner;
-import java.util.Scanner;
 
-class Fraccion {
-    int numerador;
-    int denominador;
 
-    Fraccion(int numerador, int denominador) {
-        this.numerador = numerador;
-        this.denominador = denominador;
-    }
-
-    // Método para sumar dos fracciones
-    Fraccion sumar(Fraccion otraFraccion) {
-        int nuevoDenominador = this.denominador * otraFraccion.denominador;
-        int nuevoNumerador = (this.numerador * otraFraccion.denominador) +
-                             (otraFraccion.numerador * this.denominador);
-
-        return new Fraccion(nuevoNumerador, nuevoDenominador);
-    }
-
-    @Override
-    public String toString() {
-        return numerador + "/" + denominador;
-    }
-}
 
 public class MatrizSuma {
     public static void main(String[] args) {
