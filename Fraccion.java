@@ -52,6 +52,12 @@ public class Fraccion {
         return new Fraccion(nuevoNumerador, nuevoDenominador);
     }
 
+    public Fraccion Multiplicar(Fraccion otraFraccion) {
+        int nuevoDenominador = this.denominador * otraFraccion.getDenominador();
+        int nuevoNumerador = (this.numerador * otraFraccion.getNumerador());
+        return new Fraccion(nuevoNumerador, nuevoDenominador);
+    }
+
 
 
     @Override
