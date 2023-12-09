@@ -1,4 +1,4 @@
-package calculadora.src.main.java.calculadora.fracciones;
+package calculadora.fracciones;
 import java.util.Scanner;
 
 
