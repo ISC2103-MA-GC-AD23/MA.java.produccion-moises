@@ -28,6 +28,14 @@ public class AppTest {
         assertEquals(6, resultado.getDenominador());
     }
 
+    @Test
+    void testMultiplicar() {
+        Fraccion fraccion2 = new Fraccion(1, 2);
+        Fraccion resultado = fraccion1.Multiplicar(fraccion2);
+        assertEquals(1, resultado.getNumerador());
+        assertEquals(4, resultado.getDenominador());
+    }
+
 
 
 }
