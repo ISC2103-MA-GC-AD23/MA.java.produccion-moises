@@ -1,3 +1,4 @@
+package calculadora.src.main.java.calculadora.fracciones;
 
 public class Fraccion {
     private int numerador;
